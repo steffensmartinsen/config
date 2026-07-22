@@ -1,13 +1,82 @@
 {
   "aliases": {
+    "..": {
+      "command": "cd .."
+    },
+    "...": {
+      "command": "cd ../.."
+    },
+    "....": {
+      "command": "cd ../../.."
+    },
     "c": {
       "command": "clear"
+    },
+    "cp": {
+      "command": "cp -i",
+      "description": "confirm before overwrite"
     },
     "g": {
       "command": "git status"
     },
+    "ga": {
+      "command": "git add"
+    },
+    "gb": {
+      "command": "git branch"
+    },
+    "gc": {
+      "command": "git commit"
+    },
+    "gco": {
+      "command": "git checkout"
+    },
+    "gd": {
+      "command": "git diff"
+    },
+    "gl": {
+      "command": "git pull"
+    },
+    "glog": {
+      "command": "git log --oneline --graph --decorate"
+    },
+    "gp": {
+      "command": "git push"
+    },
+    "gs": {
+      "command": "git status"
+    },
+    "h": {
+      "command": "history"
+    },
     "l": {
       "command": "ls -ltr"
+    },
+    "la": {
+      "command": "ls -A",
+      "description": "all except . and .."
+    },
+    "ll": {
+      "command": "ls -alF",
+      "description": "long list, all files"
+    },
+    "lt": {
+      "command": "ls -ltrh",
+      "description": "by time, human sizes"
+    },
+    "mv": {
+      "command": "mv -i",
+      "description": "confirm before overwrite"
+    },
+    "path": {
+      "command": "echo $PATH"
+    },
+    "reload": {
+      "command": "source ~/.bashrc"
+    },
+    "rm": {
+      "command": "rm -i",
+      "description": "confirm before removing"
     }
   }
 }
